@@ -1,4 +1,7 @@
-let alumnos = ["eliana", "edisson", "kristian", "james", "jairo", "julian", "frandy", "jorge", "gustavo", "erick", "jesus", "luis", "hector", "patricia"];
+//let alumnos = ["eliana", "edisson", "kristian", "james", "jairo", "julian", "frandy", "jorge", "gustavo", "erick", "jesus", "luis", "hector", "patricia"];
+//let alumnos = ["Alejandro", "Alejo", "Claudio", "Debora", "Felipe", "Francisco", "Mau", "Patricio", "Rodrigo", "Samuel", "Sussan", "Pauline"];
+
+let alumnos = [];
 
 const generarEquipos = (alumnos = [], nroEquipos = 0) => {
     let equipos = [];
@@ -15,16 +18,16 @@ const generarEquipos = (alumnos = [], nroEquipos = 0) => {
                 if (encontrado) {
                     j--;
                 } else {
-                    if(miembros.hasOwnProperty(alumnos[rn])){
+                    if (miembros.hasOwnProperty(alumnos[rn])) {
                         j--;
-                    }else{
+                    } else {
                         miembros[alumnos[rn]] = 'activo';
                     }
                 }
             } else {
-                if(miembros.hasOwnProperty(alumnos[rn])){
+                if (miembros.hasOwnProperty(alumnos[rn])) {
                     j--;
-                }else{
+                } else {
                     miembros[alumnos[rn]] = 'activo';
                 }
             }
@@ -32,11 +35,11 @@ const generarEquipos = (alumnos = [], nroEquipos = 0) => {
         equipos.push(miembros);
     }
 
-    if (equipos.length > 0){}
-        equipos.forEach((equipo, index) => {
-            console.log(`Equipo nro ${index + 1}`);
-            console.log(equipo)
-        })
+    if (equipos.length > 0) { }
+    equipos.forEach((equipo, index) => {
+        console.log(`Equipo nro ${index + 1}`);
+        console.log(equipo)
+    })
 }
 
-generarEquipos(alumnos, 7);
+generarEquipos(alumnos, 4);
