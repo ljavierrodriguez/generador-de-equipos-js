@@ -1,5 +1,5 @@
 //let alumnos = ["eliana", "edisson", "kristian", "james", "jairo", "julian", "frandy", "jorge", "gustavo", "erick", "jesus", "luis", "hector", "patricia"];
-//let alumnos = ["Alejandro", "Alejo", "Claudio", "Debora", "Felipe", "Francisco", "Mau", "Patricio", "Rodrigo", "Samuel", "Sussan", "Pauline"];
+//let alumnos = ["Alejandro", "Rodrigo", "Alejo", "Claudio", "Debora", "Felipe", "Francisco", "Mau", "Patricio", "Samuel", "Sussan", "Pauline"];
 
 let alumnos = [];
 
