@@ -1,8 +1,9 @@
 //let alumnos = ["eliana", "edisson", "kristian", "james", "jairo", "julian", "frandy", "jorge", "gustavo", "erick", "jesus", "luis", "hector", "patricia"];
 //let alumnos = ["Alejandro", "Rodrigo", "Alejo", "Claudio", "Debora", "Felipe", "Francisco", "Mau", "Patricio", "Samuel", "Sussan", "Pauline"];
 //let alumnos = ["Alberto", "Carlos P", "Carlos V", "Giannina", "Jimena", "Jonatan", "Jose Miguel", "Karina", "Mau", "Mauricio", "Max", "Neriannys"];
+//let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Luis Caro", "Mariandris", "Mauricio", "Nico", "Rodrigo", "Victor"]
 
-let alumnos = []
+let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Luis Caro", "Mariandris", "Mauricio", "Nico", "Rodrigo", "Victor"]
 
 const generarEquipos = (alumnos = [], nroEquipos = 0) => {
     let equipos = [];
@@ -43,4 +44,4 @@ const generarEquipos = (alumnos = [], nroEquipos = 0) => {
     })
 }
 
-generarEquipos(alumnos, 6);
+generarEquipos(alumnos, 5);
