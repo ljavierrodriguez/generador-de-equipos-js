@@ -3,7 +3,7 @@
 //let alumnos = ["Alberto", "Carlos P", "Carlos V", "Giannina", "Jimena", "Jonatan", "Jose Miguel", "Karina", "Mau", "Mauricio", "Max", "Neriannys"];
 //let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Luis Caro", "Mariandris", "Mauricio", "Nico", "Rodrigo", "Victor"]
 
-let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Luis Caro", "Mariandris", "Mauricio", "Nico", "Rodrigo", "Victor"]
+let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Manuel", "Mariandris", "Nico", "Rodrigo", "Victor", "Luis Castillo"];
 
 const generarEquipos = (alumnos = [], nroEquipos = 0) => {
     let equipos = [];
