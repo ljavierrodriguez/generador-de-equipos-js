@@ -2,8 +2,9 @@
 //let alumnos = ["Alejandro", "Rodrigo", "Alejo", "Claudio", "Debora", "Felipe", "Francisco", "Mau", "Patricio", "Samuel", "Sussan", "Pauline"];
 //let alumnos = ["Alberto", "Carlos P", "Carlos V", "Giannina", "Jimena", "Jonatan", "Jose Miguel", "Karina", "Mau", "Mauricio", "Max", "Neriannys"];
 //let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Luis Caro", "Mariandris", "Mauricio", "Nico", "Rodrigo", "Victor"]
+//let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Manuel", "Mariandris", "Nico", "Rodrigo", "Victor", "Luis Castillo"];
 
-let alumnos = ["Cristofer", "Elsa", "Felipe", "Gabriel", "Manuel", "Mariandris", "Nico", "Rodrigo", "Victor", "Luis Castillo"];
+let alumnos = ["Agustin", "Elsa", "Benjamin", "Gonzalo", "Mauricio", "Ricardo", "Yurbanis", "Alan"]; // Ginnina, Josefa
 
 const generarEquipos = (alumnos = [], nroEquipos = 0) => {
     let equipos = [];
@@ -44,4 +45,4 @@ const generarEquipos = (alumnos = [], nroEquipos = 0) => {
     })
 }
 
-generarEquipos(alumnos, 5);
+generarEquipos(alumnos, 4);
